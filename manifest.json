@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Track Visits",
+    "version": "1.3",
+    "description": "Send all visited websites and search results to a database. Track active tab and duration for each window.",
+    "permissions": [
+        "webNavigation",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
